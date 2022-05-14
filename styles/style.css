@@ -4,8 +4,75 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+
+  background: linear-gradient(to bottom, #17657D 35%, white 1%);
+
+
+  display: flex;
+  height: 100vh;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
 }
 
+.principale {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageTelephone {
+  margin-left: 200px;
+  margin-right: 100px;
+}
+
+#imageIphone {
+  width: 450px;
+}
+
+
+.contenu {
+  height: 100vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#brand {
+  margin-top: -300px;
+  margin-left: -450px;
+}
+
+#home-logo {
+  margin-top: -50px;
+  margin-right: -350px;
+}
+
+.texteContenu {
+  border-radius: 1%;
+  margin-top: 30px;
+  margin-right: 150px;
+  width: 600px;
+  background: white;
+  justify-content: center;
+}
+
+
+footer {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  margin-top: 45%;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 100vh;
+  align-items: center;
+  justify-content: center;
+}
