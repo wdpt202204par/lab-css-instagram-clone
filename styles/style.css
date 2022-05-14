@@ -70,8 +70,9 @@ body {
 footer {
   position : absolute;
   ddisplay : inline-block;
-  margin:auto;
+  mmargin:auto;
   mmargin-top: auto;
+  margin-top: -2px;
   height: 30vh;
   width: 100vw;
   background-color: white;
