@@ -6,5 +6,110 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 7em 7em;
+  background-image: url("/images/bgtile.png");
+  background-repeat: repeat-x;
+  background-size: auto 30vh;
+}
+
+.upper {
+  display: flex;
+  gap: 3em;
+}
+
+.smartphones {
+  margin: auto auto;
+}
+
+.description {
+  background-color: white;
+  border-radius: 0.4em;
+  box-shadow: -20px 0px 15px -25px grey, 20px 0px 15px -25px grey;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.content {
+  height: auto;
+}
+.download {
+  padding: 1em;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1em;
+}
+
+header .logo {
+  height: 80px;
+}
+.login {
+  display: flex;
+  align-items: center;
+  height: 3em;
+  padding: 0 0.6em;
+  gap: 0.8em;
+  background-image: url("/images/bgtile.png");
+  border: 1px solid #06365f;
+  border-radius: 0.3em;
+  color: white;
+  font-weight: bold;
+}
+
+h2 {
+  color: #06365f;
+  width: 10.5em;
+}
+
+h2,
+p {
   margin: 0;
+  padding: 0.3em;
+}
+
+.big {
+  font-weight: 800;
+  color: black;
+}
+p {
+  font-weight: 600;
+  color: gray;
+}
+
+.download {
+  display: flex;
+  gap: 2em;
+  margin: 1em;
+}
+
+footer {
+  height: auto;
+  margin: 3em 0;
+  padding: 0 2em;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1em;
+  background-color: white;
+}
+
+li {
+  justify-content: space-between;
+  font-weight: 800;
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: #1c5380;
+}
+
+#copyright {
+  color: gray;
 }
