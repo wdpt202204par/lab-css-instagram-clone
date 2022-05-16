@@ -11,12 +11,12 @@ body {
 
   background: linear-gradient(to bottom, #17657D 35%, white 1%);
 
-  ddisplay: flex;
-  hheight: 100vh;
-  wwidth: auto;
-  aalign-items: center;
-  jjustify-content: center;
-  mmargin-bottom: 100px;
+  display: flex;
+  height: 90vh;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
 }
 
 .principale {
@@ -69,27 +69,26 @@ body {
 
 footer {
   position : absolute;
-  ddisplay : inline-block;
-  mmargin:auto;
-  mmargin-top: auto;
-  margin-top: -2px;
-  height: 30vh;
+  display : inline-block;
+  margin-top: 900px;
+  height: 0vh;
   width: 100vw;
   background-color: white;
-
-
-
-
-  ffont-family: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-
+  font-family: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-ul{
-  margin : 0;
-  padding-inline: auto;
+ul {
+  padding-left : 300px;
+  padding-right: auto;
   display:flex;
-  gap: 15px;
-  list-style: none;
-  text-align: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+li a {
+  color: black; 
+  padding-left: 100px;
+  padding-right: auto;
+  font-weight: bold;
 }
 
